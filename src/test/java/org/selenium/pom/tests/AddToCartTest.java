@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class AddToCartTest extends BaseTest {
-
     @Test
     public void addToCartFromStorePage() throws IOException {
         Product product = new Product(1215);
